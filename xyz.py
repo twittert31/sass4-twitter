@@ -5,7 +5,7 @@ def main():
   grid_lines = LineString([(0,0), (1,0), (1,1),(1,0),(0,0)])
   # check once if you have to add another coordinate to complete the loop
   print(grid_polygon)
-
+  print('Kartik was here')
   print(grid_lines)
   point1 = Point(1,1)
   point2 = Point(0.5,0.5)
