@@ -7,7 +7,7 @@ def main():
   print(grid_polygon)
 
   print(grid_lines)
-  point1 = Point(1,0)
+  point1 = Point(1,1)
   point2 = Point(0.5,0.5)
   print("p1",point1)
   print("within polygon:",point1.within(grid_polygon))
